@@ -1,73 +1,8 @@
-<!doctype html>
-<html lang="hi">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>IndraSphere | News • Views • Stories</title>
-<meta name="description" content="IndraSphere — देश, दुनिया, राजनीति, शिक्षा, टेक्नोलॉजी और विचारों की खबरें।">
-<style>
-:root{--red:#d71920;--dark:#111827;--text:#18202b;--muted:#667085;--bg:#f3f5f8;--white:#fff;--line:#e5e7eb}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,"Noto Sans Devanagari",sans-serif}a{text-decoration:none;color:inherit}
-.wrap{max-width:1180px;margin:auto;padding:0 16px}.top{background:#0f172a;color:#dbe3ef;font-size:12px}.top .wrap{height:32px;display:flex;align-items:center;justify-content:space-between}
-header{background:#fff}.head{height:82px;display:flex;align-items:center;justify-content:space-between;gap:20px}.logo{font-size:31px;font-weight:900;letter-spacing:-1.5px}.logo i{font-style:normal;color:var(--red)}.tag{font-size:11px;color:var(--muted);margin-top:3px}.search{width:250px;border:1px solid var(--line);border-radius:22px;padding:11px 16px;font-size:14px;outline:0}
-.nav{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line);overflow:auto}.nav .wrap{display:flex;gap:24px;white-space:nowrap}.nav a{padding:14px 0;font-size:14px;font-weight:700}.nav a:hover{color:var(--red)}
-.breaking{background:var(--red);color:#fff}.breaking .wrap{height:42px;display:flex;align-items:center;gap:12px;overflow:hidden}.breaking b{background:#fff;color:var(--red);padding:6px 9px;border-radius:4px;font-size:11px;flex:none}.breaking span{font-size:14px;white-space:nowrap}
-main{padding:22px 0}.hero-grid{display:grid;grid-template-columns:2fr 1fr;gap:18px}.hero{min-height:390px;border-radius:14px;padding:30px;display:flex;align-items:flex-end;color:#fff;background:linear-gradient(135deg,#101827,#34435a);box-shadow:0 8px 24px #0f172a18}.hero .label{color:#fecaca;font-weight:800;font-size:12px}.hero h1{font-size:38px;line-height:1.12;margin:10px 0}.hero p{font-size:16px;color:#e5e7eb;line-height:1.55;max-width:700px}.meta{font-size:12px;color:#8b96a7}.side{display:flex;flex-direction:column;gap:12px}.side article{background:#fff;border:1px solid var(--line);border-radius:12px;padding:17px}.side .label,.label{font-size:11px;color:var(--red);font-weight:800}.side h3{margin:7px 0;font-size:18px;line-height:1.35}
-.section{margin-top:27px}.section-head{display:flex;justify-content:space-between;align-items:center;border-bottom:3px solid var(--red);padding-bottom:8px;margin-bottom:14px}.section-head h2{margin:0;font-size:23px}.more{color:var(--red);font-size:13px;font-weight:700}
-.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.card{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}.thumb{height:145px;background:linear-gradient(135deg,#dbeafe,#e2e8f0);display:flex;align-items:center;justify-content:center;font-weight:900;color:#475569}.card .body{padding:16px}.card h3{font-size:18px;line-height:1.35;margin:7px 0}.card p{color:var(--muted);font-size:13px;line-height:1.5}
-.split{display:grid;grid-template-columns:2fr 1fr;gap:18px}.list{background:#fff;border:1px solid var(--line);border-radius:12px}.row{padding:15px;border-bottom:1px solid var(--line)}.row:last-child{border:0}.row h3{margin:5px 0;font-size:17px}.rank{display:flex;gap:12px;align-items:flex-start}.num{font-size:22px;font-weight:900;color:#cbd5e1}
-footer{margin-top:35px;background:#0f172a;color:#cbd5e1;padding:34px 0}.foot{display:grid;grid-template-columns:2fr 1fr 1fr;gap:30px}.foot h4{color:#fff}.foot p{font-size:13px;line-height:1.7}.flogo{font-size:26px;font-weight:900;color:#fff}.flogo i{font-style:normal;color:#f87171}
-@media(max-width:760px){.top{display:none}.head{height:70px}.logo{font-size:26px}.search{width:145px}.hero-grid,.split{grid-template-columns:1fr}.hero{min-height:330px;padding:24px}.hero h1{font-size:29px}.cards{grid-template-columns:1fr}.side{margin-top:0}.foot{grid-template-columns:1fr}.nav .wrap{gap:18px}}
-</style>
-</head>
-<body>
-<div class="top"><div class="wrap"><span>ताज़ा खबरें • तथ्य • विचार</span><span>IndraSphere Digital</span></div></div>
-<header><div class="wrap head"><div><div class="logo">Indra<span>Sphere</span></div><div class="tag">NEWS • VIEWS • STORIES</div></div><input id="search" class="search" placeholder="खबर खोजें…"></div></header>
-<nav class="nav"><div class="wrap">
-<a href="#">होम</a><a href="#">ब्रेकिंग न्यूज़</a><a href="#">राष्ट्रीय</a><a href="#">मध्य प्रदेश</a><a href="#">राजनीति</a><a href="#">शिक्षा</a><a href="#">टेक्नोलॉजी</a><a href="#">मनोरंजन</a><a href="#">खेल</a><a href="#">विश्व</a><a href="#">ओपिनियन</a>
-</div></nav>
-<div class="breaking"><div class="wrap"><b>BREAKING</b><span>IndraSphere पर देश-दुनिया की प्रमुख खबरें, विश्लेषण और महत्वपूर्ण अपडेट पढ़ें।</span></div></div>
-
-<main class="wrap">
-<section class="hero-grid">
-<article class="hero"><div><div class="label">FEATURED STORY</div><h1>खबर सिर्फ खबर नहीं — उसके पीछे की पूरी कहानी समझिए</h1><p>IndraSphere पर ताज़ा घटनाओं के साथ उनका संदर्भ, उपलब्ध तथ्य और अलग-अलग दृष्टिकोण पढ़ें।</p><div class="meta" style="color:#cbd5e1">IndraSphere Desk • Featured</div></div></article>
-<div class="side">
-<article><div class="label">मध्य प्रदेश</div><h3>मध्य प्रदेश की प्रमुख खबरें और स्थानीय अपडेट</h3><div class="meta">आज • 2 घंटे पहले</div></article>
-<article><div class="label">शिक्षा</div><h3>छात्रों, परीक्षाओं और शिक्षा जगत से जुड़े अपडेट</h3><div class="meta">आज • 3 घंटे पहले</div></article>
-<article><div class="label">टेक्नोलॉजी</div><h3>AI और टेक की दुनिया में क्या नया है?</h3><div class="meta">आज • 4 घंटे पहले</div></article>
-</div>
-</section>
-
-<section class="section"><div class="section-head"><h2>ताज़ा खबरें</h2><a class="more" href="#">सभी देखें →</a></div>
-<div class="cards">
-<article class="card"><div class="thumb">NEWS</div><div class="body"><div class="label">राष्ट्रीय</div><h3>देश की प्रमुख खबरों का ताज़ा अपडेट</h3><p>महत्वपूर्ण घटनाओं और खबरों की संक्षिप्त जानकारी।</p><div class="meta">IndraSphere Desk • आज</div></div></article>
-<article class="card"><div class="thumb">MP</div><div class="body"><div class="label">मध्य प्रदेश</div><h3>प्रदेश की राजनीति और स्थानीय घटनाक्रम</h3><p>मध्य प्रदेश से जुड़े महत्वपूर्ण अपडेट एक जगह।</p><div class="meta">IndraSphere Desk • आज</div></div></article>
-<article class="card"><div class="thumb">EDU</div><div class="body"><div class="label">शिक्षा</div><h3>छात्रों के लिए जरूरी शिक्षा समाचार</h3><p>परीक्षा, प्रवेश और शिक्षा व्यवस्था से जुड़े अपडेट।</p><div class="meta">IndraSphere Desk • आज</div></div></article>
-</div></section>
-
-<section class="section split">
-<div><div class="section-head"><h2>विश्लेषण & ओपिनियन</h2><a class="more" href="#">और पढ़ें →</a></div><div class="list">
-<div class="row"><div class="label">OPINION</div><h3>किसी भी बड़े मुद्दे को समझने के लिए किन तथ्यों पर ध्यान दें?</h3><div class="meta">Opinion Desk • 6 min read</div></div>
-<div class="row"><div class="label">ANALYSIS</div><h3>बदलती डिजिटल मीडिया दुनिया और पाठकों की नई आदतें</h3><div class="meta">IndraSphere Desk • 5 min read</div></div>
-<div class="row"><div class="label">EXPLAINER</div><h3>जटिल खबरों को आसान भाषा में समझें</h3><div class="meta">Explainer Desk • 4 min read</div></div>
-</div></div>
-<div><div class="section-head"><h2>Most Read</h2></div><div class="list">
-<div class="row rank"><span class="num">01</span><h3>आज की सबसे ज्यादा पढ़ी गई खबर</h3></div>
-<div class="row rank"><span class="num">02</span><h3>सोशल मीडिया पर चर्चा में रहने वाला मुद्दा</h3></div>
-<div class="row rank"><span class="num">03</span><h3>आज का प्रमुख विश्लेषण</h3></div>
-</div></div>
-</section>
-</main>
-
-<footer><div class="wrap foot"><div><div class="flogo">Indra<span>Sphere</span></div><p>News • Views • Stories<br>खबर, संदर्भ और विचार — एक ही जगह।</p></div><div><h4>Categories</h4><p>राष्ट्रीय<br>मध्य प्रदेश<br>राजनीति<br>शिक्षा<br>टेक्नोलॉजी</p></div><div><h4>Information</h4><p>About Us<br>Contact<br>Privacy Policy<br>Terms & Conditions</p></div></div></footer>
-
-<script>
-document.getElementById('search').addEventListener('input',function(){
- const q=this.value.toLowerCase().trim();
- document.querySelectorAll('.card,.row,.side article,.hero').forEach(x=>{
-   x.style.display=(!q||x.innerText.toLowerCase().includes(q))?'':'none';
- });
-});
-</script>
-</body>
-</html>
+<!doctype html><html lang="hi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>IndraSphere | News • Views • Stories</title><style>
+:root{--red:#d71920;--dark:#111827;--text:#18202b;--muted:#667085;--bg:#f3f5f8;--white:#fff;--line:#e5e7eb}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,"Noto Sans Devanagari",sans-serif}a{text-decoration:none;color:inherit}.wrap{max-width:1180px;margin:auto;padding:0 16px}.top{background:#0f172a;color:#dbe3ef;font-size:12px}.top .wrap{height:32px;display:flex;align-items:center;justify-content:space-between}header{background:#fff}.head{height:82px;display:flex;align-items:center;justify-content:space-between;gap:20px}.logo{font-size:31px;font-weight:900;letter-spacing:-1.5px}.logo span,.flogo span{color:var(--red)}.tag{font-size:11px;color:var(--muted);margin-top:3px}.search{width:250px;border:1px solid var(--line);border-radius:22px;padding:11px 16px;font-size:14px;outline:0}.nav{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line);overflow:auto}.nav .wrap{display:flex;gap:24px;white-space:nowrap}.nav a{padding:14px 0;font-size:14px;font-weight:700}.breaking{background:var(--red);color:#fff}.breaking .wrap{height:42px;display:flex;align-items:center;gap:12px;overflow:hidden}.breaking b{background:#fff;color:var(--red);padding:6px 9px;border-radius:4px;font-size:11px}.breaking span{font-size:14px;white-space:nowrap}main{padding:22px 0}.hero{min-height:360px;border-radius:14px;padding:30px;display:flex;align-items:flex-end;color:#fff;background:linear-gradient(135deg,#101827,#34435a);box-shadow:0 8px 24px #0f172a18}.label{font-size:11px;color:var(--red);font-weight:800}.hero .label{color:#fecaca}.hero h1{font-size:38px;line-height:1.12;margin:10px 0}.hero p{font-size:16px;color:#e5e7eb;line-height:1.55;max-width:700px}.meta{font-size:12px;color:#8b96a7}.section{margin-top:27px}.section-head{display:flex;justify-content:space-between;align-items:center;border-bottom:3px solid var(--red);padding-bottom:8px;margin-bottom:14px}.section-head h2{margin:0;font-size:23px}.more{color:var(--red);font-size:13px;font-weight:700}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.card{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}.thumb{height:145px;background:linear-gradient(135deg,#dbeafe,#e2e8f0);display:flex;align-items:center;justify-content:center;font-weight:900;color:#475569}.body{padding:16px}.card h3{font-size:18px;line-height:1.35;margin:7px 0}.card p{color:var(--muted);font-size:13px;line-height:1.5}.empty{background:#fff;border:1px dashed #cbd5e1;padding:28px;border-radius:12px;text-align:center;color:var(--muted)}footer{margin-top:35px;background:#0f172a;color:#cbd5e1;padding:34px 0}.foot{display:grid;grid-template-columns:2fr 1fr 1fr;gap:30px}.flogo{font-size:26px;font-weight:900;color:#fff}.foot p{font-size:13px;line-height:1.7}@media(max-width:760px){.top{display:none}.head{height:70px}.logo{font-size:26px}.search{width:145px}.hero{min-height:320px;padding:24px}.hero h1{font-size:29px}.cards{grid-template-columns:1fr}.foot{grid-template-columns:1fr}}
+</style></head><body><div class="top"><div class="wrap"><span>ताज़ा खबरें • तथ्य • विचार</span><span>IndraSphere Digital</span></div></div><header><div class="wrap head"><div><div class="logo">Indra<span>Sphere</span></div><div class="tag">NEWS • VIEWS • STORIES</div></div><input id="search" class="search" placeholder="खबर खोजें…"></div></header><nav class="nav"><div class="wrap"><a href="index.html">होम</a><a href="#latest">ब्रेकिंग न्यूज़</a><a href="#latest">राष्ट्रीय</a><a href="#latest">मध्य प्रदेश</a><a href="#latest">राजनीति</a><a href="#latest">शिक्षा</a><a href="#latest">टेक्नोलॉजी</a><a href="#latest">मनोरंजन</a><a href="#latest">खेल</a><a href="#latest">विश्व</a><a href="#latest">ओपिनियन</a></div></nav><div class="breaking"><div class="wrap"><b>BREAKING</b><span id="breakingText">IndraSphere पर देश-दुनिया की प्रमुख खबरें और महत्वपूर्ण अपडेट पढ़ें।</span></div></div><main class="wrap"><section id="featured"></section><section class="section" id="latest"><div class="section-head"><h2>ताज़ा खबरें</h2><a class="more" href="admin.html">खबर जोड़ें →</a></div><div class="cards" id="newsGrid"></div></section></main><footer><div class="wrap foot"><div><div class="flogo">Indra<span>Sphere</span></div><p>News • Views • Stories<br>खबर, संदर्भ और विचार — एक ही जगह।</p></div><div><b>Categories</b><p>राष्ट्रीय<br>मध्य प्रदेश<br>राजनीति<br>शिक्षा<br>टेक्नोलॉजी</p></div><div><b>Information</b><p>About Us<br>Contact<br>Privacy Policy<br>Terms & Conditions</p></div></div></footer><script>
+const demo=[{id:'welcome',title:'खबर सिर्फ खबर नहीं — उसके पीछे की पूरी कहानी समझिए',category:'Featured',summary:'IndraSphere पर ताज़ा घटनाओं के साथ उनका संदर्भ, उपलब्ध तथ्य और अलग-अलग दृष्टिकोण पढ़ें।',content:'यह IndraSphere का पहला featured article है। यहां से आप अपनी खबरों को विस्तार से प्रकाशित कर सकते हैं।',date:'आज'}];
+function getNews(){try{return JSON.parse(localStorage.getItem('indrasphere_news')||'[]')}catch(e){return []}}
+function render(){let items=[...getNews(),...demo];let seen=new Set();items=items.filter(x=>x&&!seen.has(x.id)&&seen.add(x.id));let f=items[0];document.getElementById('featured').innerHTML=`<article class="hero"><div><div class="label">FEATURED STORY</div><h1>${esc(f.title)}</h1><p>${esc(f.summary||'IndraSphere पर पूरी खबर पढ़ें।')}</p><div class="meta" style="color:#cbd5e1">${esc(f.category||'IndraSphere Desk')} • ${esc(f.date||'आज')}</div></div></article>`;document.getElementById('newsGrid').innerHTML=items.slice(0,12).map(n=>`<article class="card"><div class="thumb">${esc((n.category||'NEWS').toUpperCase())}</div><div class="body"><div class="label">${esc(n.category||'राष्ट्रीय')}</div><h3><a href="article.html?id=${encodeURIComponent(n.id)}">${esc(n.title)}</a></h3><p>${esc(n.summary||'खबर की पूरी जानकारी पढ़ने के लिए क्लिक करें।')}</p><div class="meta">${esc(n.date||'आज')} • ${esc(n.author||'IndraSphere Desk')}</div></div></article>`).join('')||'<div class="empty">अभी कोई खबर नहीं है। Admin Panel से पहली खबर जोड़ें।</div>'}
+function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}render();document.getElementById('search').addEventListener('input',e=>{let q=e.target.value.toLowerCase();document.querySelectorAll('.card').forEach(c=>c.style.display=c.innerText.toLowerCase().includes(q)?'':'none')});
+</script></body></html>
